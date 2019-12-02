@@ -5,7 +5,7 @@ var country = require('countryjs');
 
 
 router.get('/info/:state/', function(req, res, next){ //Rendiamo lo stato un parametro
-    console.log("ciao");
+    console.log("ciaoi");
  res.send(req.params);
 })
 
